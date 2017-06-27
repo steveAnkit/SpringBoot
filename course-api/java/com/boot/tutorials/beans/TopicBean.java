@@ -3,11 +3,11 @@ package com.boot.tutorials.beans;
 public class TopicBean {
 	private String name;
 	
-	private int id;
+	private String id;
 	
 	private String description;
 
-	public TopicBean(String name, int id, String description) {
+	public TopicBean(String name, String id, String description) {
 		super();
 		this.name = name;
 		this.id = id;
@@ -25,11 +25,11 @@ public class TopicBean {
 		this.name = name;
 	}
 
-	public int getId() {
+	public String getId() {
 		return id;
 	}
 
-	public void setId(int id) {
+	public void setId(String id) {
 		this.id = id;
 	}
 
