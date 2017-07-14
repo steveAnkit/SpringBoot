@@ -1,8 +1,16 @@
 package com.boot.tutorials.beans;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+
+@Entity
 public class TopicBean {
+	
+	
 	private String name;
 	
+	@Id
 	private String id;
 	
 	private String description;
